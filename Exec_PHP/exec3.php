@@ -17,13 +17,20 @@
 			print_r($funcionarios);
 			echo '</pre>';
 
-			/*
-			foreach($funcionarios as $idx => $nome_funcionarios){
-				echo "ID $idx - Nome: $nome_funcionarios<br>";
-			}
-			*/
-
+			// foreach ($funcionarios as $valueIndex) {
+			// 	foreach ($valueIndex as $key => $value) {
+			// 		echo $key." - ".$value."<br>";
+			// 	}
+			// }
 			
+			for($i = 0; $i < count($funcionarios); $i++) {
+
+				for($j = 0; $j < count($funcionarios[$i]); $j++) {
+					
+					echo $funcionarios[$i][$j];
+
+				}
+			}
 
 		?>
 	</body>

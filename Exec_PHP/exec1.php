@@ -12,14 +12,14 @@
             array('titulo' => 'Título notícia 4', 'conteudo' => 'Conteúdo notícia 4'),
 		);
 
-		echo "<pre>";
+	    echo "<pre>";
 		print_r($registros);
 		echo "</pre>";
-    echo '<br><br><br>';
+        echo "<br><br><br>\n\n\n";
 
 
 		echo 'O array possui '.count($registros).' registros';
-		echo '<br>';
+		echo "<br>\n";
 		$idx = 0;
     /*
 		while ($idx < count($registros)) {
