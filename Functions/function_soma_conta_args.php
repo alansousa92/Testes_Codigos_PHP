@@ -47,6 +47,5 @@ function Conta_Soma_Argumentos(){
 }
 
 
-//Conta_Soma_Argumentos(1, 2, 5);
+Conta_Soma_Argumentos(1, 2, 5);
 
-var_dump(func_num_args());

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form action='processa_dados.php' method='POST'>
+        <p>O que voce achou do site?<br>
+        <input type="radio" name="avaliacao" value="muitobom" checked>Muito Bom
+        <input type="radio" name="avaliacao" value="bom" checked>Bom
+        <input type="radio" name="avaliacao" value="regular" checked>Regular
+        <input type="radio" name="avaliacao" value="umlixo" checked>Um Lixo
+        </p>
+        <p>Qual a seção que voce mais gostou?
+            <select id="" name="secao" size='1'>
+                <option value="emcartaz">Em cartaz</option>
+                <option value="trilhasonora">Trilha Sonora</option>
+                <option value="fotos">Galeria de Fotos</option>
+                <option value="bilheteria">Bilheteria</option>
+                <option value="outra">Outra</option>
+            </select>
+        </p>
+        <p>Digite seus comentarios no espaço abaixo:
+            <br>
+            <textarea name="Comentarios" cols="42" rows="5"></textarea>
+        </p>
+        <p>Diga-nos como entrar em contato com voce:<br>
+            Nome: <input type="text" size='35' maxlength='256' name='nome'><br>
+            E-mail: <input type="email" size='35' maxlength='256' name='email'>
+            Fone: <input type="tel" size='35' maxlength='256' name='fone'>
+        </p>
+        <input type="checkbox" name="novidades" value="nov">Quero receber as novidades por emal
+        <p>
+            <input type="submit" value="Enviar Dados">
+            <input type="reset" value="Limpar Formulario">
+        </p>
+        
+        
+        
+</body>
+</html>

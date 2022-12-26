@@ -13,7 +13,7 @@ que seria uma representação dessa data.*/
 $time_inicial = strtotime($data_inicial);
 $time_final = strtotime($data_final);
 
-// strtotime -  retorna os numero de segundo das datas
+// strtotime -  retorna os numero de segundos das datas
 echo $data_inicial.' - '.$time_inicial.'<br>';
 echo $data_final.' - '.$time_final.'<br>';
 
